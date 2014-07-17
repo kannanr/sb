@@ -1,4 +1,5 @@
 ActiveAdmin.register Owner do
+  permit_params :name, :phone, :email
 
   
   # See permitted parameters documentation:
