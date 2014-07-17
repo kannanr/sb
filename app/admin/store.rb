@@ -1,4 +1,5 @@
 ActiveAdmin.register Store do
+  permit_params :name, :address, :city, :zipcode
 
   
   # See permitted parameters documentation:
